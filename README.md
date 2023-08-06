@@ -2,7 +2,8 @@
 
 * 1- Bir listeyi düzleştiren (flatten) fonksiyon yazın. Elemanları birden çok katmanlı listelerden ([[3],2] gibi) oluşabileceği gibi, non-scalar verilerden de oluşabilir.
 
-```def flat(l):
+```
+def flat(l):
     flatten =[]
     for i in l:
         if type(i) != list:
@@ -14,7 +15,8 @@
 
 * 2- Verilen listenin içindeki elemanları tersine döndüren bir fonksiyon yazın. Eğer listenin içindeki elemanlar da liste içeriyorsa onların elemanlarını da tersine döndürün.
 
-```def rev(l):
+```
+def rev(l):
     l.reverse()
     for i in l:
         if type(i) == list:
